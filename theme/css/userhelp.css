@@ -10,6 +10,124 @@
 .left-col { float: left; }   	 	 
 .right-col { float: right; }
 
+html, body {
+	background: #0385CB;
+}
+
+div#header {
+	padding: 0px;
+}
+
+div#header div#CMSLinks {
+	float: right;
+	margin-right: 10px;
+	padding: 7px;
+	border-radius:7px;
+	color: #eee;
+	text-shadow: -0.05em -0.05em 0.05em #555, 0.05em 0.05em 0.05em #aaa;
+	border: 2px outset #777;
+	font-size: 1.3em;
+}
+
+div#header div#CMSLinks ul {
+	list-style-type: none;
+}
+
+div#header div#CMSLinks ul li {
+	float: left;
+	clear: none;
+	margin-left: 25px;
+}
+
+div#header div#CMSLinks ul li:nth-child(1) {
+	margin-left: 0px;
+}
+
+div#header div#CMSLinks ul li:nth-child(0) {
+	margin-right: 25px;
+}
+
+div#header div#CMSLinks ul li a {
+	color: #eee;
+	display: inline-block;
+	transition: all 0.12s ease-out 0s;
+	font-weight: bold;
+}
+
+div#header div#CMSLinks ul li a:hover {
+	transform: scale(1.1);
+	text-shadow: 0.1em 0.1em 0.1em #fff;
+	color: #1E35BE;
+}
+
+/* 
+ * To make the logo animated on hover:
+ *
+
+div#header img#logo {
+	transition: transform 0.12s ease-out 0s;
+}
+
+div#header img#logo:hover {
+	transform: scale(1.3) rotate(365deg);
+}
+
+*/
+
+div#container {
+	border-radius: 15px;
+	margin-bottom: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+div#footer div,div#footer div a {
+	color: #eee;
+	text-shadow: -0.1em -0.1em 0.1em #555, 0.1em 0.1em 0.1em #aaa;
+	font-weight: bold;
+}
+
+div#footer div a {
+	color: #fff;
+	display: inline-block;
+	transition: all 0.12s ease-out 0s;
+}
+
+div#footer div a:hover {
+	color: #1E35BE; /* #0385CB; */
+	/*text-shadow: 0.1em 0.1em 0.1em #fff;*/
+	transform: scale(1.5);
+}
+
+div#footer {
+	box-shadow: 0 0 20px #eee;
+	width: 1004px;
+	margin: 0px auto;
+	margin-bottom: 22px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 8px;
+	color: #fff;
+}
+
+.gradient {
+	background: #b5bdc8;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b5bdc8), color-stop(36%, #828c95), color-stop(100%, #28343b));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
+	/* IE6-9 */
+}
 
 /* Content Area */
 #Layout {

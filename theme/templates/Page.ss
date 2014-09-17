@@ -19,14 +19,25 @@
 <body>
 	<div id="container">
 		<div id="header">
-
-			<h1>
-				<a href="" title="$SiteConfig.Title"><span>$SiteConfig.Title</span></a>
-			</h1>
-		
-			<div id="breadcrumbs">
-				<% include Breadcrumbs %>
-			</div>
+				<div style="float: left">
+					<a href="" title="$SiteConfig.Title"><img id="logo" src="/themes/ss-help/images/logo.png" title="$SiteConfig.Title" /></a>
+					
+				</div>
+				
+				<div id="CMSLinks" class="gradient">
+						<ul>
+							<li><a href="http://petpack.com.au/admin/">Back to CMS</a></li>
+							<!--
+							<li><a href="http://petpack.com.au/admin/cms">Pages</a></li>
+							<li><a href="http://petpack.com.au/admin/accounts">Accounts</a></li>
+							<li><a href="http://petpack.com.au/admin/editions">Newsletters</a></li>
+							-->
+						</ul>
+					</div>
+			
+				<div id="breadcrumbs">
+					<% include Breadcrumbs %>
+				</div>
 		
 			<div class="clear"></div>
 		</div>
@@ -44,9 +55,15 @@
 		</div>
 	</div>		
 		
-	<div id="footer" class="clear">
-		<p>Powered by <a href="http://www.silverstripe.org">SilverStripe</a>. <a href="http://open.silverstripe.org/newticket/?component=Documentation">Raise a bug or enhancement ticket</a> to help improve the documentation.
-		<br />Except where otherwise noted, content on this wiki is licensed under <a class="urlextern" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a><a href="http://creativecommons.org/licenses/by/3.0/nz/" rel="license"><img class="cc-logo" src="http://i.creativecommons.org/l/by/3.0/nz/80x15.png" style="border-width: 0pt;" alt="Creative Commons License"></a></p>
+	<div id="footer" class="clear gradient">
+		<div style="float:left;"><a href="http://www.petpack.com.au/contact/" title="Click to contact us online">Contact us online</a> 
+		or phone: <a title="Call Us!" href="tel:03 9866 2212">03 9866 2212</a></div>
+		<div style="float:right;">
+			<em>Content on this website is <span style="font-size:1.3em">&copy;</span> Copyright 
+			<a href="http://petpack.com.au/" title="Visit the Pet Pack website">Pet Pack</a>, 2011-$Now.Year. 
+			All rights Reserved.</em>
+		</div>
+		<div class="clear"></div>
 	</div>
 
 	<% if PastMember %>
