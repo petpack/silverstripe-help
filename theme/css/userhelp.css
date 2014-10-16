@@ -248,3 +248,10 @@ div#footer {
 			border: 1px solid #ddd;
 			padding: 5px;
 		}
+
+/* hide the 'published site' indicator */
+div#SilverStripeNavigatorMessage {
+	/* opacity: 0.33; */
+	display: none; 
+}
+
