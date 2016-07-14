@@ -2,8 +2,8 @@
 
 class HelpPage extends Page {
 
-	function getCMSFields() {
-		return SiteTree::getCMSFields();
+	function getCMSFields($params = null) {
+		return SiteTree::getCMSFields($params);
 	}
 
 }
