@@ -57,7 +57,7 @@
 		
 	<div id="footer" class="clear gradient">
 		<div style="float:left;"><a href="http://www.petpack.com.au/contact/" title="Click to contact us online">Contact us online</a> 
-		or phone: <a title="Call Us!" href="tel:03 9866 2212">03 9866 2212</a></div>
+		or phone: <a title="Call Us!" href="tel:03 9690 6253">03 9690 6253</a></div>
 		<div style="float:right;">
 			<em>Content on this website is <span style="font-size:1.3em">&copy;</span> Copyright 
 			<a href="http://petpack.com.au/" title="Visit the Pet Pack website">Pet Pack</a>, 2011-$Now.Year. 
